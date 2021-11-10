@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'transformer-streaming'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_640EA68133CC425EA4EAE07758000B74 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2E8091257A294425B1B2411EFC2DED7C }}
