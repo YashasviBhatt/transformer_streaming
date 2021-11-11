@@ -30,3 +30,6 @@ def transformer_output():
     # Generating Output
     tf_dict = ast.literal_eval(tf_json[1:len(tf_json) - 1])
     return jsonify(tf_dict)
+
+if __name__ == '__main__':
+    app.run()
